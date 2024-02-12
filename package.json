@@ -19,7 +19,8 @@
     "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^8.0.1"
+    "react-redux": "^8.0.1",
+    "react-router-dom": "^6.18.0"
   },
   "devDependencies": {
     "@testing-library/dom": "^9.2.0",
@@ -50,8 +51,8 @@
       "airbnb-typescript"
     ],
     "rules": {
-      "react/require-default-props":0,
-      "@typescript-eslint/naming-convention":0,
+      "react/require-default-props": 0,
+      "@typescript-eslint/naming-convention": 0,
       "arrow-parens": 0,
       "react/function-component-definition": 0,
       "import/no-named-as-default": 0,
@@ -93,7 +94,7 @@
     "parserOptions": {
       "project": [
         "./tsconfig.json",
-				"./tsconfig.node.json"
+        "./tsconfig.node.json"
       ]
     }
   },
